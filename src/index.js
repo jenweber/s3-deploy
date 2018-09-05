@@ -1,6 +1,6 @@
 import 'babel-polyfill';
 import glob from 'glob';
-import flatten from 'lodash/array/flatten';
+import { flatten } from 'lodash';
 import minimist from 'minimist';
 import co from 'co';
 
